@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="$NUR@OoO}9nui]Lx{mf{" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="|j1-T7[-XY$%/~Fux^Kj"><field name="LEDS">`
+        # # # # # 
+        # # . # # 
+        # # . . # 
+        # # . # # 
+        # # # # #
+        `</field><next><block type="device_pause" id=".IdX^Sx|lI|.K{`YSl[Y"><value name="pause"><shadow type="timePicker" id="6Zob!-bL,x|Zl4l(K0#4"><field name="ms">2000</field></shadow></value><next><block type="device_print_message" id="ntLGLjw@;PrMoxYvEd-^"><value name="text"><shadow type="text" id="t`EJ?8@k]Vz`H}{7@vDJ"><field name="TEXT">Daj SUBA panu markowi</field></shadow></value><next><block type="playMelody" id="Gua|@*sdq8IuHpVLZ9}]"><value name="melody"><shadow type="melody_editor" id="#LAaa/|G2_/3RF5^.mA6"><field name="melody">"C D E D C - - C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="X-4zP@VYTR9gncy[fO~s"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="8e6n/z1qaXUwk8I0o[@," x="609" y="89"><statement name="HANDLER"><block type="device_show_leds" id="t}q6[J9(~5IdfJUN4T)0"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="playMelody" id="f{,,3gm^`Z:[L?nN;Hq+"><value name="melody"><shadow type="melody_editor" id="!RV-AkK/bpp^sAF1JMIF"><field name="melody">"C D E D C - - C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="6r5a?!o$AS2iYq(}1B9H"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="mJPmy12N[g]GDd4G]kNn" x="5" y="454"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="os:g}`4*dY0~G4D$|I[]"><value name="text"><shadow type="text" id="y?yQJI4sn5u_yB`[e4o-"><field name="TEXT">Jestem KubiBot stworzony przez @Kubi i @MegaJJ!</field></shadow></value><next><block type="device_show_leds" id="DAQ|M:0)[rG;]r0ir*iE"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="playMelody" id="2rnVc_!afPAmauxjN-,u"><value name="melody"><shadow type="melody_editor" id="BXg2AA|vG)2Wj#V,89Dw"><field name="melody">"C D E D C - - C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="cX+wxFNV8dDPwQ^wdR3T"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="aK_CTdc+L{b3Q[a3}t!e" x="608" y="448"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="f0Z:|meyFi.9%N^0vmev"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="playMelody" id="^Q{/ngoD:%b!RM60@qHG"><value name="melody"><shadow type="melody_editor" id="|nMH2z0~fl[EazBML8`u"><field name="melody">"C D E D C - - C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="8OVan2zahYF(y|``$64Q"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></statement></block></xml>
